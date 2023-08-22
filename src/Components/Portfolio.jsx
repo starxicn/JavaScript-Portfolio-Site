@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/banner.png";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,40 +31,40 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "米哈游荣获“全国文化企业30强 🎉",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "12月28日，光明日报社和经济日报社向社会联合发布了第十四届“全国文化企业30强”名单，上海米哈游网络科技股份有限公司等30家企业进入行列。",
+    url: "https://www.mihoyo.com/news/105515",
   },
   {
-    title: "Web Development for Beginners",
+    title: "米哈游荣获“上海文化企业十强",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "米哈游坚持助力传统文化创新表达、中华文化破圈传播，荣获上海文化企业十强，公司总裁刘伟荣获上海文化企业十大年度人物，公司原创IP“原神”荣获上海十大文化品牌。",
+    url: "https://www.mihoyo.com/news/103569",
   },
   {
-    title: "My Resume Site",
+    title: "“你们好，见字如面！”——阅见未名：图书捐赠公益活动",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "2022年，米哈游《未定事件簿》携手韬奋基金会，联合开展了「阅见未名」图书捐赠公益活动。在《未定事件簿》各位玩家的热心支持下，目前已向云南省大理白族自治州11所小学...",
+    url: "https://www.mihoyo.com/news/103570",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "米哈游荣获“全国版权示范单位”称号",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "国家版权局公布了2022年度全国版权示范单位、示范单位（软件正版化）和示范园区（基地）名单，上海米哈游网络科技股份有限公司被授予“全国版权示范单位”荣誉称号。",
+    url: "https://www.mihoyo.com/news/112200",
   },
 ];
 
 const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
-      <h2 style={{ textAlign: "center" }}>Portfolio</h2>
+      <h2 style={{ textAlign: "center" }}>News</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
-        <div style={{ maxWidth: "40%", alignSelf: "center" }}>
+        <div style={{ left:"10%", maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{ height: "90%", width: "100%", objectFit: "cover", boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)", }}
             alt={imageAltText}
           />
         </div>
